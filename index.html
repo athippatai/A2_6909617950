@@ -54,56 +54,127 @@
         </div>
       </section>
 
-      <section>
-        <h2>What I Built:</h2>
-        <p>
-          งานนี้ผมได้สร้างเว็บไซต์ My First Learning Portfolio
-          มีส่วนประกอบสำคัญคือโค้ด HTML และ CSS กับส่วน body ที่เขียนขึ้น
-          ในขณะที่เปิดเว็บไซต์นี้จากคอมของผมเอง
-        </p>
-        <p>
-          มี client เกิดขึ้นแล้วแต่ server ยังไม่เกิดขึ้น เพราะ client คือ web
-          browser ในคอมผมเอง ส่วน server
-          ยังไม่เกิดเพราะเป็นการเปิดไฟล์ในเครื่องตัวเอง
-        </p>
-      </section>
+      <section id="portfolio" class="bg-white p-4 p-md-5 rounded-3 shadow-sm mb-4">
+        <h2 class="fw-bold text-dark pb-2 mb-4 border-bottom">My Portfolio</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm border rounded-3">
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                  <span class="badge bg-primary-subtle text-primary border px-2 py-1">Course Assignment</span>
+                  <span class="text-secondary small">30 Aug 2026</span>
+                </div>
 
-      <section>
-        <h2>How I Built It:</h2>
-        <p>ขั้นตอนในการพัฒนางานนี้:</p>
-        <ol class="custom-list">
-          <li>ใช้ Gemini notebook สรุปว่าต้องทำอะไรบ้าง</li>
-          <li>เขียนข้อความในส่วน body</li>
-          <li>เขียน HTML แล้วนำข้อความที่เขียนไว้มาใส่</li>
-          <li>ตกแต่งด้วย CSS</li>
-          <li>ลองเปิดเว็บไซต์ว่าสมบูรณ์หรือไม่</li>
-        </ol>
-      </section>
+                <h3 class="h5 card-title fw-bold text-dark mb-2">CS100 A1: My First Learning Portfolio</h3>
+                <p class="text-secondary small mb-3"><strong>Role:</strong> Individual Developer</p>
 
-      <section>
-        <h2>Reflection:</h2>
-        <ul class="custom-list">
-          <li>
-            <strong>ปัญหาหรือความท้าทายที่พบ:</strong> คือ การต้องใช้ Semantic
-            HTML แทน &lt;div&gt; หรือ &lt;p&gt; ที่ใช้เป็นประจำ วิธีรับมือคือ
-            ฝึกใช้ไปเรื่อยๆ จนชินไปเอง
-          </li>
-          <li>
-            <strong>สิ่งที่เข้าใจมากขึ้นเกี่ยวกับการพัฒนาเว็บไซต์:</strong>
-            คือ การใช้ Semantic HTML และ การตกแต่งด้วย CSS
-          </li>
-          <li>
-            <strong>หากได้พัฒนาต่อ:</strong> อยากปรับปรุงการตกแต่งด้วย CSS
-            เพราะยังไม่ชำนาญ
-            และอยากศึกษาเพิ่มเติมเพื่อจัดวางเลย์เอาต์ให้หน้าเว็บมีความสวยงาม
-            เป็นระเบียบ และน่าอ่านมากยิ่งขึ้น
-          </li>
-        </ul>
+                <p class="card-text mb-3">
+                  พัฒนาเว็บไซต์ Learning Portfolio หน้าเดียวด้วย HTML และ CSS เพื่อแนะนำตัวเองและสะท้อนกระบวนการเรียนรู้เบื้องต้น
+                </p>
+
+                <div class="mb-3">
+                  <strong class="small d-block text-secondary mb-1">Skills:</strong>
+                  <div class="d-flex flex-wrap gap-1">
+                    <span class="badge bg-light text-dark">HTML</span>
+                    <span class="badge bg-light text-dark">CSS</span>
+                    <span class="badge bg-light text-dark">Semantic HTML</span>
+                  </div>
+                </div>
+
+                <div class="bg-light p-3 rounded-2 mb-3">
+                  <h4 class="h6 fw-bold text-dark mb-2 border-0 pb-0">Reflection:</h4>
+                  <ul class="list-unstyled small mb-0 d-flex flex-column gap-2 text-secondary">
+                    <li>
+                      <strong class="text-dark">What I did:</strong> พัฒนาเว็บไซต์ My First Learning Portfolio หน้าเดียวด้วยโครงสร้าง Semantic HTML และจัดแต่งความสวยงามด้วย CSS
+                    </li>
+                    <li>
+                      <strong class="text-dark">What I learned:</strong> เริ่มเข้าใจโครงสร้าง Semantic HTML และการทำงานร่วมกันระหว่าง HTML และ CSS ในการจัดหน้าเว็บ รวมถึงการแสดงผลผ่าน Browser
+                    </li>
+                    <li>
+                      <strong class="text-dark">Challenge:</strong> ช่วงแรกเจอปัญหาเรื่องการใช้ Semantic HTML แทน &lt;div&gt; หรือ &lt;p&gt; และเรื่อง path ของรูปภาพ แต่ทดลองปรับแก้ทีละส่วนจนเข้าใจและถูกต้อง
+                    </li>
+                    <li>
+                      <strong class="text-dark">Next step:</strong> อยากฝึกฝนการใช้ CSS เพิ่มเติมเพื่อจัดวางเลย์เอาต์ให้สวยงาม เป็นระเบียบ และสามารถรองรับการแสดงผลบนมือถือได้ดียิ่งขึ้น
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mt-auto pt-3 border-top">
+                  <strong class="small d-block text-secondary mb-2">Evidence:</strong>
+                  <div class="row g-2">
+                    <div class="col-6">
+                      <img src="media/A1-1.jpg" alt="หลักฐานผลงาน A1 ภาพที่ 1" class="img-fluid rounded border shadow-sm w-100 evidence-img" />
+                    </div>
+                    <div class="col-6">
+                      <img src="media/A1-2.jpg" alt="หลักฐานผลงาน A1 ภาพที่ 2" class="img-fluid rounded border shadow-sm w-100 evidence-img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm border rounded-3">
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                  <span class="badge bg-success-subtle text-success border px-2 py-1">Course Assignment</span>
+                  <span class="text-secondary small">18 September 2026</span>
+                </div>
+
+                <h3 class="h5 card-title fw-bold text-dark mb-2">CS102 Hw2: C Programming Problem Solving</h3>
+                <p class="text-secondary small mb-3"><strong>Role:</strong> Independent Developer</p>
+
+                <p class="card-text mb-3">
+                  ทำการบ้านวิชา CS102 เกี่ยวกับการเขียนโปรแกรมด้วยภาษา C เพื่อแก้ปัญหาโจทย์การคำนวณและตรรกะจำนวน 5 ข้อ
+                </p>
+
+                <div class="mb-3">
+                  <strong class="small d-block text-secondary mb-1">Skills:</strong>
+                  <div class="d-flex flex-wrap gap-1">
+                    <span class="badge bg-light text-dark">C</span>
+                    <span class="badge bg-light text-dark">Problem Solving</span>
+                    <span class="badge bg-light text-dark">Algorithms</span>
+                    <span class="badge bg-light text-dark">Logic</span>
+                  </div>
+                </div>
+
+                <div class="bg-light p-3 rounded-2 mb-3">
+                  <h4 class="h6 fw-bold text-dark mb-2 border-0 pb-0">Reflection:</h4>
+                  <ul class="list-unstyled small mb-0 d-flex flex-column gap-2 text-secondary">
+                    <li>
+                      <strong class="text-dark">What I did:</strong> เขียนโปรแกรมภาษา C จำนวน 5 ข้อ เช่น การคำนวณช่วงความสูง การจำแนกประเภทสามเหลี่ยม การแปลงหน่วยเวลา การหาตัวเลขที่หารด้วย 13 ลงตัว และการตรวจสอบจำนวนเฉพาะ
+                    </li>
+                    <li>
+                      <strong class="text-dark">What I learned:</strong> ได้เรียนรู้และเข้าใจไวยากรณ์พื้นฐานภาษา C การรับส่งข้อมูลผ่าน standard I/O (printf/scanf) ตรรกะเงื่อนไข (if-else) และการวนรอบ (loop)
+                    </li>
+                    <li>
+                      <strong class="text-dark">Challenge:</strong> ปัญหาสำคัญคือการจัดการเงื่อนไขขอบเขตข้อมูล (Input Validation/Edge Cases) และการเขียนเงื่อนไขใน Loop ให้ถูกต้อง วิธีรับมือคือออกแบบขั้นตอนและทดสอบรันด้วย Test Cases หลากหลายแบบ
+                    </li>
+                    <li>
+                      <strong class="text-dark">Next step:</strong> อยากศึกษาเพิ่มเติมเรื่อง Functions, Arrays และ Pointer ในภาษา C เพื่อพัฒนาโปรแกรมที่มีโครงสร้างชัดเจนและมีประสิทธิภาพยิ่งขึ้น
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mt-auto pt-3 border-top">
+                  <strong class="small d-block text-secondary mb-1">Evidence:</strong>
+                  <p class="small mb-0">
+                    GitHub Repository:
+                    <a href="https://github.com/athippatai/CS102.git" target="_blank" rel="noopener noreferrer">
+                      https://github.com/athippatai/CS102.git
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <p>&copy; 2026 อธิปไตร สุวรรณพิทักษ์ - CS100 Assignment 1</p>
+    <footer class="text-center py-4 text-secondary small">
+      <p class="mb-0">&copy; 2026 อธิปไตร สุวรรณพิทักษ์ - CS100 Assignment 2</p>
     </footer>
   </body>
 </html>
