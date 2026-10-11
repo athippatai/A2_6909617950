@@ -18,24 +18,40 @@
       </div>
     </header>
 
-    <main>
-      <section>
-        <h2>About me:</h2>
-        <p>
-          สวัสดีครับผมชื่อ อธิปไตร สุวรรณพิทักษ์ รหัสนักศึกษา: 6909617950
-          ชื่อเล่น อะตอม อายุ: 20ปี
-        </p>
-        <p>
-          เป็นนักศึกษาระดับปริญญาตรีมหาวิทยาลัยธรรมศาสตร์
-          คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 1
-        </p>
-        <img id="pic" src="media/picture.jpg" />
-        <p>
-          ทำความรู้จักกับคณะของผมได้ที่:
-          <a href="https://sci.tu.ac.th/" target="_blank"
-            >https://sci.tu.ac.th/</a
-          >
-        </p>
+    <main class="container my-4 my-md-5">
+      <section id="about-me" class="bg-white p-4 p-md-5 rounded-3 shadow-sm mb-4">
+        <h2 class="fw-bold text-dark pb-2 mb-4 border-bottom">About Me:</h2>
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-md-4 text-center">
+            <img
+              id="pic"
+              src="media/picture.jpg"
+              alt="รูปถ่ายของ อธิปไตร สุวรรณพิทักษ์"
+              class="img-fluid rounded-3 shadow-sm"
+              style="max-width: 220px;"
+            />
+          </div>
+          <div class="col-12 col-md-8">
+            <h3 class="text-primary fw-bold mb-3">นายอธิปไตร สุวรรณพิทักษ์ (อะตอม)</h3>
+            <ul class="list-unstyled mb-3">
+              <li class="mb-2"><strong>รหัสนักศึกษา:</strong> 6909617950</li>
+              <li class="mb-2"><strong>หลักสูตร:</strong> วิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ (ชั้นปีที่ 1)</li>
+              <li class="mb-2"><strong>คณะ:</strong> วิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยธรรมศาสตร์</li>
+              <li class="mb-2">
+                <strong>ข้อมูลคณะ:</strong>
+                <a href="https://sci.tu.ac.th/" target="_blank" rel="noopener noreferrer">https://sci.tu.ac.th/</a>
+              </li>
+            </ul>
+            <div class="pt-2">
+              <h4 class="fw-bold text-secondary mb-2">ความสนใจ (Interests):</h4>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-primary-subtle text-primary border">Software Engineering</span>
+                <span class="badge bg-danger-subtle text-danger border">Game Development</span>
+                <span class="badge bg-secondary-subtle text-secondary-emphasis border">Gaming</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
